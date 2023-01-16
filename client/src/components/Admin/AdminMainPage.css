@@ -1,0 +1,90 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.flex {
+    display: flex;
+    gap:20px;
+    /* flex-direction: column; */
+}
+
+.Left {
+    width: 10vw;
+    height: 100%;
+    justify-content: center;
+    background-color: #f1f1f1;
+}
+
+.sidebar span {
+  display: block;
+  color: #3e91f7;
+  font-weight: 900;
+  padding: 16px;
+}
+ 
+.sidebar ul > li{
+  padding-bottom: 10px;
+  size: 1em;
+  font-weight: 600;
+}
+.sidebar ul > li > a:hover {
+  color: #3e91f7;
+}
+
+.sidebar ul{
+  list-style-type: none;
+  gap:10px;
+}
+
+.sidebar ul > li > a{
+  color: black;
+  text-decoration: none;
+}
+
+.Right {
+    width: 90vw;
+    padding-right: 20px;
+    /* background-color: black; */
+}
+ 
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+.button{
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 30px 5px;
+  border-radius: 100px;
+  color: white;
+}
+
+.cancel {
+  border: 2px solid rgb(235, 22, 22);
+  background-color: #c74444c4;
+}
+
+.cancel:hover{
+  background-color: #a02121;
+  }
+
+  .approve {
+    border: 2px solid rgb(58, 235, 22);
+    background-color: #2ea828ad;
+    margin-right: 40px;
+  }
+  
+  .approve:hover{
+    background-color: #90cb10;
+    }
+  
+  .admin{
+    border: 2px solid rgb(10, 132, 231);
+    background-color: #3e91f7a2;
+  }
